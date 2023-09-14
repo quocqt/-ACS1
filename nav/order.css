@@ -1,0 +1,65 @@
+/* section-1 */
+.section-1
+{
+    background-image: url(../asset/image/order.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px 80px 0px;
+}
+.section-1 .element-1
+{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+} 
+.section-1 .element-1 form h2
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4em;
+    padding-bottom: 14px;
+}
+.section-1 .element-1 form p
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #000000;
+    padding-bottom: 9px;
+}
+.section-1 .element-1 form .id
+{
+    width: 100%;
+}
+.section-1 .element-1 form .email
+{
+    width: 100%;
+}
+.section-1 .element-1 form .submit
+{
+    width: 100%;
+    color: white;
+    background: #81C8C2;
+    font-weight: bold;
+    font-size: 16px;
+}
+.section-1 .element-1 form .submit:hover
+{
+    background: #FF594F;
+}
+.section-1 .element-1 form input
+{
+    border-radius: 40px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    height: 43px;
+    border: 1px solid #ddd;
+}
+.section-1 .element-1 form div
+{
+    padding-bottom: 10px;
+}
+/* end section-1 */

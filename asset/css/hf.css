@@ -1,0 +1,180 @@
+/* header */
+.header img
+{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .header-menu ul li a 
+{
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color2);
+}
+.header .header-social ul li
+{
+    padding: 0 10px;
+}
+.header .header-social ul li i
+{
+    font-size: 20px;
+    color: var(--color2);
+}
+.header .header-menu ul li a:hover
+{
+    color: var(--color1);
+}
+.header .header-social ul li:hover
+{
+    cursor: pointer;
+}
+.header .header-menu .hienthi:hover .dropdown
+{
+    display: block;
+}
+
+.header .dropdown 
+{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+    background: #fff;
+    padding-top: 25px;
+    width: 190px;
+}
+.header .dropdown li
+{
+    padding: 10px 0;
+    padding-left: 10px;
+}
+.header .dropdown li:hover
+{
+    background: #55595C;
+}
+.header .dropdown li:hover a
+{
+    color: #fff;
+}
+.header .dropdown li:hover a:hover
+{
+    color: #fff;
+}
+/* end header */
+/* footer */
+footer .element-1
+{
+    background: #F8F8F8;
+    padding: 35px 0;
+}
+footer .element-1 .inner-wrap
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+footer .element-1 .inner-wrap .infor a
+{
+    color: var(--color2);
+}
+footer  .element-1 .inner-wrap ul li i
+{
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+footer .element-2
+{
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+footer .element-2 .inner-wrap
+{
+    display: flex;
+}
+footer .element-2 .inner-wrap ul
+{
+    flex-direction: column;
+}
+footer .element-2 .inner-wrap .col-2
+{
+    width: 20%;
+}
+footer .element-2 .inner-wrap .col-3
+{
+    width: 30%;
+}
+footer .element-2 .inner-wrap span
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: var(--color2);
+}
+footer .element-2 .inner-wrap ul li a
+{
+    color: var(--color2);
+}
+footer .element-2 .inner-wrap .icon ul li i
+{
+    font-size: 20px;
+    color: white;
+    background: #414141;
+    border-radius: 5px;
+    padding: 5px;
+}
+footer .element-2 .inner-wrap .icon ul
+{
+    flex-direction: row;
+}
+footer .element-2 .inner-wrap .introduce ul li
+{
+   padding: 5px 0
+}
+footer .element-2 .inner-wrap .icon ul li 
+{
+    padding-right: 15px;
+}
+
+
+footer .element-3 .company
+{
+    border-top: 1px solid #414141;
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer .element-4
+{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 999;
+}
+footer .element-4 .infor ul
+{
+    flex-direction: column;
+}
+footer .element-4 .infor ul li
+{
+    padding: 8px 0;
+}
+footer .element-4 .infor ul li i
+{
+    font-size: 22px;
+    color: white;
+    background: var(--color1);
+    padding: 10px;
+    border-radius: 50%;
+}
+/* end footer */

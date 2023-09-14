@@ -1,0 +1,111 @@
+
+/* section-1 */
+.section-1
+{
+    background-image: url(/asset/image/biaBlog.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+.section-1 .title
+{
+    color: #fff;
+    padding-top: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section-1 .title h1
+{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.section-1 .title a
+{
+    color: #fff;
+}
+.section-1 .title .trangchu
+{
+    margin-right: 30px;
+}
+.section-1 .title .inner-wrap
+{
+    display: flex;
+    position: relative;
+}
+.section-1 .title .blog::before
+{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #81c8c2;
+    top: 4px;
+    left: 81px;
+    border-radius: 50%;
+}
+/* end section-1 */
+
+
+
+/* section-2 */
+.section-2 
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-2 .element-1
+{
+    display: flex;
+    height: 400px;
+}
+.section-2 .content
+{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #F3F3F3;
+}
+.section-2 .content .doc
+{
+    margin-top: 30px;
+}
+.section-2 .content .doc a p
+{
+    color: #414141;
+}
+/* end section-2 */
+
+
+/* section-3 */
+.section-3 
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-3 .element-1
+{
+    display: flex;
+    height: 400px;
+}
+.section-3 .content
+{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #F3F3F3;
+}
+.section-3 .content .doc
+{
+    margin-top: 30px;
+}
+.section-3 .content .doc a p
+{
+    color: #414141;
+}
+.section-3 .element-1 .anh img
+{
+    width: 600px;
+    height: 400px;
+}
+/* end section-3 */

@@ -1,0 +1,193 @@
+
+/* section-1 */
+.section-1
+{
+    background-image: url(/asset/image/biaBlog.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+.section-1 .title
+{
+    color: #fff;
+    padding-top: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section-1 .title h1
+{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.section-1 .title a
+{
+    color: #fff;
+}
+.section-1 .title .trangchu
+{
+    margin-right: 30px;
+}
+.section-1 .title .inner-wrap
+{
+    display: flex;
+    position: relative;
+}
+.section-1 .title .blog::before
+{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #81c8c2;
+    top: 4px;
+    left: 81px;
+    border-radius: 50%;
+}
+/* end section-1 */
+
+
+
+
+
+/* section-5 */
+.section-5
+{
+    margin: 20px 0;
+    padding-bottom: 90px;
+    margin-bottom: 100px;
+}
+.section-5 .innerwrap
+{
+    display: flex;
+}
+.section-5 .element-1
+{
+    width: 50%;
+}
+.section-5 .content     p
+{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: var(--color2);
+    margin-top: 20px;
+}
+.section-5 .title 
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.section-5 .title img
+{
+    opacity: 0.4;
+}
+.section-5 .title h2
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+.section-5 .element-2
+{
+    width: 50%;
+}
+.section-5 .element-2 .anh img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.section-5 .element-2 .innerbox
+{
+    position: relative;
+}
+.section-5 .element-2 .innerbox .set
+{
+    width: 260px;
+    max-width: 260px;
+    color: white;
+}
+.section-5 .element-2 .innerbox .facebook,.instagram
+{
+    background-image: url(https://kinhmatanna.com//wp-content/uploads/2022/08/insta-bg.2494bc15.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section-5 i
+{
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+.section-5 .element-2 .innerbox .facebook
+{
+    padding: 16px;
+    background: linear-gradient(45.58deg, #0F74ED 1.89%, #147DFA 29.93%, #098DF3 49.79%, #0E8EF1 98.68%) !important;
+
+}
+.section-5 .element-2 .innerbox .instagram
+{
+    background: linear-gradient(45.58deg, #EA8B5F 1.89%, #DA5F5B 21.75%, #C4449E 41.02%, #A43592 98.68%) !important;
+    padding: 16px;
+}
+.section-5 .element-2 .innerbox .tiktok
+{
+    background-image: url(https://kinhmatanna.com//wp-content/uploads/2022/08/82bfbd7ddea61bf842b7.jpg);
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+.section-5 .element-2 .innerbox .tiktok
+{
+    padding: 16px;
+}
+.section-5 .element-2 .innerbox .anh
+{
+    position: absolute;
+    left: 45%;
+    top: 100px;
+}
+.section-5 .element-2 .innerbox .fb
+{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+.section-5 .element-2 .innerbox .is
+{
+    position: absolute;
+    left: 460px;
+}
+.section-5 .element-2 .innerbox .tk
+{
+    position: absolute;
+    left: 460px;
+    top: 300px;
+}
+/* end section-5 */
+
+
+/* section-2 */
+.section-2 .element-1 h1 
+{
+    animation: move 15s infinite;
+}
+.section-2 .element-1
+{
+    padding: 100px 0;
+}
+@keyframes move {
+    from {
+      transform: translateX(-95%);
+    }
+    to {
+      transform: translateX(58%);
+    }
+  } 
+/* end section-2 */

@@ -1,0 +1,44 @@
+.section-2 .element-2 .container 
+{
+    width: 90%;
+}
+.section-2 .element-2 h1 
+{
+    font-size: 35px;
+    line-height: 1.5em;
+}
+.section-2 .element-2 h2
+{
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+.section-2 .element-2 h3
+{
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+.section-2 .element-2 p
+{
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.2;
+    word-spacing: 5px;
+}
+.section-2 .element-2 ul {
+    flex-direction: column;
+    margin-left: 50px;
+}
+.section-2 .element-2 ul li {
+    list-style: disc;
+    font-size: 18px;
+    word-spacing: 10px;
+    padding: 5px 10px;
+}
+strong
+{
+    font-weight: bolder;
+}
+.section-2 .element-2 img
+{
+    width: 100%;
+}
